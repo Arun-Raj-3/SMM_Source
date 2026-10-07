@@ -28,11 +28,11 @@ Win by combining workflow, intelligence, and attribution in one system:
 - Expansion revenue from add-ons: attribution, localization, influencer module, white-label, API, AI credits.
 - Land-and-expand strategy increases ARPU as customers activate advanced modules.
 
-### Execution Plan (8 Weeks)
-- **Sprint 1:** Workflow MVP (`create -> approve -> schedule -> publish`)
-- **Sprint 2:** NOVA v1 + Attribution MVP
-- **Sprint 3:** Predictive scoring + Brand voice + Competitor benchmarks
-- **Sprint 4:** Localization + Influencer + Compliance + White-label
+### Execution Plan (Gated Phases)
+- **Weeks 1-12:** Workflow MVP (`create -> approve -> schedule -> publish`, LinkedIn first)
+- **Weeks 13-16:** Pilots, billing, second platform, basic analytics
+- **Weeks 17-24:** Revenue attribution MVP (HubSpot)
+- **Weeks 25-32:** NOVA planner, Content Score, Brand Voice (scale modules after PMF)
 
 ### Key KPIs
 - Attributed pipeline and revenue per campaign/platform
@@ -50,7 +50,7 @@ Win by combining workflow, intelligence, and attribution in one system:
 This is not another posting tool. It is a revenue operating system for social marketing: unifying execution, attribution, intelligence, and governance at a price point accessible to mid-market teams and expandable into enterprise.
 
 ### Immediate Milestones
-1. Complete Sprint 1-4 roadmap.
+1. Launch MVP and convert pilots to paying customers (Week 16).
 2. Demonstrate attributed revenue in pilot accounts.
 3. Convert pilots to paid multi-module subscriptions.
 4. Scale enterprise controls and partner integrations.

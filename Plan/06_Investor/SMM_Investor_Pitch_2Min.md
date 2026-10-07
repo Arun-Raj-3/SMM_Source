@@ -18,17 +18,17 @@ The business model is SaaS with expansion modules:
 - core plans from Starter to Enterprise,
 - plus high-margin add-ons like advanced attribution, localization, influencer intelligence, white-label reporting, and API access.
 
-Execution is phased and de-risked across four sprints:
-1. Workflow MVP,
-2. Attribution plus NOVA v1,
-3. Predictive and brand intelligence,
-4. Localization, compliance, influencer, and agency-ready white-label features.
+Execution is phased and gated, so each step must prove value before the next begins:
+1. a workflow MVP in twelve weeks,
+2. paying pilot customers by week sixteen,
+3. revenue attribution by week twenty-four,
+4. then AI planning, content scoring and brand voice, with scale modules after product-market fit.
 
 This gives us an efficient land-and-expand motion: teams start with workflow value, then expand into intelligence and governance modules as they scale.
 
 Why we win:
 we are not another posting tool. We are building a **revenue operating system for social marketing**, combining execution, attribution, prediction, and compliance in one platform, at a price point that is accessible for mid-market and expandable to enterprise.
 
-In the next two quarters, we will complete the sprint roadmap, prove attributed revenue impact in pilot customers, and convert those pilots into paid multi-module subscriptions.
+In the next two quarters, we will launch the MVP, prove attributed revenue impact in pilot customers, and convert those pilots into paid multi-module subscriptions.
 
 Thank you. I would be happy to walk through the product demo and KPI dashboard next.

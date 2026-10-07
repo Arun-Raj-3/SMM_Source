@@ -1,4 +1,7 @@
 # SMM Platform - Sprint 2 Backlog
+
+> **Reference spec (v2.0, 2026-10-07):** Use this file for detailed acceptance criteria only. Sequencing and scope come from `Plan/02_Execution/SMM_Implementation_Phases.md`; stack, naming and scope decisions from `Plan/02_Execution/SMM_Decisions_Log.md` (wins on any conflict). Task status lives in `Plan/02_Execution/SMM_Autonomous_Development_Checklist.md`.
+
 ## Focus: NOVA v1 + Revenue Attribution MVP
 
 ---

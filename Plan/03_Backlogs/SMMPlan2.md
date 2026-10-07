@@ -1,9 +1,12 @@
 # Social Media Marketing Application — Foundation Plan & Tasks
 
+> **Reference spec (v2.0, 2026-10-07):** Use this file for detailed acceptance criteria only. Sequencing and scope come from `Plan/02_Execution/SMM_Implementation_Phases.md`; stack, naming and scope decisions from `Plan/02_Execution/SMM_Decisions_Log.md` (wins on any conflict). Task status lives in `Plan/02_Execution/SMM_Autonomous_Development_Checklist.md`.
+
+
 > **Version:** 1.0  
 > **Date:** March 10, 2026  
 > **Scope:** Phase 1 — Foundation (Months 1–4)  
-> **Reference:** [Product Blueprint](./social-media-marketing-app-blueprint.md)
+> **Reference:** [Product Blueprint](../01_Strategy/SocialMediaMarketing.md)
 
 ---
 
@@ -1009,4 +1012,4 @@ For each task to be considered **done**:
 
 ---
 
-*This foundation plan aligns with Phase 1 of the [Social Media Marketing Application Blueprint](./social-media-marketing-app-blueprint.md). Adjust timelines and scope to match team size and priorities.*
+*This foundation plan aligns with Phase 1 of the [Social Media Marketing Application Blueprint](../01_Strategy/SocialMediaMarketing.md). Adjust timelines and scope to match team size and priorities.*

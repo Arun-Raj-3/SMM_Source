@@ -1,4 +1,7 @@
 # SMM Application - Monthly Profit Gain Overview
+
+> **Status (v2.0, 2026-10-07):** OpEx below assumes a funded team (~10–15 people), which does not match the solo-founder plan in `Plan/02_Execution/SMM_Decisions_Log.md` (D1). Month 1 is not yet linked to the launch date (first paying customer ≈ Week 16). Rebuild as a spreadsheet with churn, CAC, LTV, cumulative burn (base case Year 1 ≈ −₹3.32 crore; optimistic ≈ −₹0.88 crore) and a bootstrapped scenario before external use.
+
 ## 12-Month Financial Projection (Optimistic Scenario, INR)
 
 ---
@@ -81,7 +84,7 @@ Currency is shown in Indian Rupees (INR).
 
 ## 7) Recommendation
 Track both files side-by-side in investor discussions:
-- Base model: `Plan/SMM_Monthly_Profit_Gain_Overview.md`
-- Optimistic model: `Plan/SMM_Monthly_Profit_Gain_Optimistic_INR.md`
+- Base model: `Plan/07_Finance/SMM_Monthly_Profit_Gain_Overview.md`
+- Optimistic model: `Plan/07_Finance/SMM_Monthly_Profit_Gain_Optimistic_INR.md`
 
 Use the base model for credibility and the optimistic model to explain upside from execution excellence.

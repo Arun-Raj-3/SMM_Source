@@ -178,8 +178,8 @@
 ---
 
 ## 10) Final Recommended Workflow
-1. Build deck with `Plan/SMM_Investor_Deck_Content.md`
+1. Build deck with `Plan/06_Investor/SMM_Investor_Deck_Content.md`
 2. Apply this design guide for consistency
-3. Validate with `Plan/SMM_Investor_QA_Checklist.md`
+3. Validate with `Plan/06_Investor/SMM_Investor_QA_Checklist.md`
 4. Run one timed rehearsal (2-min + 10-min versions)
 5. Export final pitch deck and backup PDF

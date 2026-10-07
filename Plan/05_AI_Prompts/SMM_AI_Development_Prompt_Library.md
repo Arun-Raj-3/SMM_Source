@@ -484,9 +484,9 @@ Constraints:
 ---
 
 ## Linked Docs
-- `Plan/SMM_Solo_Founder_AI_Stack_Plan.md`
-- `Plan/SMM_Master_Execution_Plan.md`
-- `Plan/SMM_Sprint1_Backlog.md`
-- `Plan/SMM_Sprint2_Backlog.md`
-- `Plan/SMM_Sprint3_Backlog.md`
-- `Plan/SMM_Sprint4_Backlog.md`
+- `Plan/02_Execution/SMM_Solo_Founder_AI_Stack_Plan.md`
+- `Plan/02_Execution/SMM_Master_Execution_Plan.md`
+- `Plan/03_Backlogs/SMM_Sprint1_Backlog.md`
+- `Plan/03_Backlogs/SMM_Sprint2_Backlog.md`
+- `Plan/03_Backlogs/SMM_Sprint3_Backlog.md`
+- `Plan/03_Backlogs/SMM_Sprint4_Backlog.md`

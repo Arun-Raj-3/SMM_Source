@@ -1,4 +1,7 @@
 # SMM Application - Monthly Profit Gain Overview
+
+> **Status (v2.0, 2026-10-07):** OpEx below assumes a funded team (~10–15 people), which does not match the solo-founder plan in `Plan/02_Execution/SMM_Decisions_Log.md` (D1). Month 1 is not yet linked to the launch date (first paying customer ≈ Week 16). Rebuild as a spreadsheet with churn, CAC, LTV, cumulative burn (base case Year 1 ≈ −₹3.32 crore; optimistic ≈ −₹0.88 crore) and a bootstrapped scenario before external use.
+
 ## 12-Month Financial Projection (Base Scenario, INR)
 
 ---
@@ -46,9 +49,9 @@ Where:
 ### Average Revenue Per Account (ARPA)
 Weighted ARPA based on mix:
 
-`(0.35 x 1,577) + (0.40 x 4,897) + (0.20 x 10,707) + (0.05 x 20,667) = ~₹5,689.65`
+`(0.35 x 1,577) + (0.40 x 4,897) + (0.20 x 10,707) + (0.05 x 20,667) = ₹5,685.50`
 
-Rounded ARPA used in model: **₹5,727/account/month**
+ARPA used in model: **₹5,727/account/month** (⚠️ correction 2026-10-07: the inputs give ₹5,685.50; the model is ~0.7% high and COGS cells are slightly off. Fix in the spreadsheet rebuild.)
 
 ### Add-On Uptake
 - 20% of customers purchase at least one paid add-on.

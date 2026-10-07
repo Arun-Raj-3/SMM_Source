@@ -1,5 +1,8 @@
 # Social Media Marketing Application — Product Blueprint
 
+> **Long-term vision (v2.0, 2026-10-07):** This blueprint describes the full 18-month+ product. Near-term scope, platforms, stack and timeline are narrowed by `Plan/02_Execution/SMM_Decisions_Log.md` and `Plan/02_Execution/SMM_Implementation_Phases.md`. Market statistics below need sources before external use.
+
+
 > **Version:** 1.0 | **Date:** March 9, 2026 | **Status:** Concept & Feature Specification
 
 ---

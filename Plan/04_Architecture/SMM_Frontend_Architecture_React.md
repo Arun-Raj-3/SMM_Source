@@ -1,4 +1,7 @@
 # SMM Frontend Architecture (React + TypeScript + Tailwind)
+
+> **Architecture reference (v2.0, 2026-10-07):** Where this file differs from `Plan/02_Execution/SMM_Decisions_Log.md` §3–4 (stack, auth, database, naming), the Decisions Log wins. Key overrides: Supabase Auth (no custom login code), PostgreSQL only (no MongoDB/Elasticsearch), Redux Toolkit + RTK Query (no Zustand/React Query), Tailwind + shadcn/ui (no MUI), `apps/worker` path.
+
 ## Page Map + State/Data Flow + MVP UI Contracts
 
 ---
@@ -84,7 +87,8 @@ Keep modules aligned to backend modules: `content`, `approval`, `scheduling`, `p
 
 ## 3) State Management Approach (Simple + Scalable)
 
-### 3.1 Use React Query for server state
+### 3.1 Use RTK Query (Redux Toolkit) for server state
+- Decision D12: RTK Query replaces React Query; Redux slices replace Zustand.
 - Fetch and cache:
   - drafts
   - approvals
@@ -92,7 +96,7 @@ Keep modules aligned to backend modules: `content`, `approval`, `scheduling`, `p
   - attribution dashboard data
 - This prevents manual refresh complexity.
 
-### 3.2 Use Zustand for local UI state
+### 3.2 Use Redux slices for local UI state
 - Store:
   - current workspace selection
   - UI filters (date range)

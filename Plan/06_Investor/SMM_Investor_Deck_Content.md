@@ -116,14 +116,14 @@ We focus on segments that need enterprise outcomes but cannot adopt enterprise c
 
 ---
 
-## Slide 9 - Execution Plan (8 Weeks)
+## Slide 9 - Execution Plan (Gated Phases)
 **Headline:** De-risked phased delivery.
 
 **On-slide bullets:**
-- **Sprint 1:** Workflow MVP (`create -> approve -> schedule -> publish`)
-- **Sprint 2:** NOVA v1 + Attribution MVP
-- **Sprint 3:** Predictive scoring + Brand voice + Competitor benchmarks
-- **Sprint 4:** Localization + Influencer + Compliance + White-label
+- **Weeks 1-12:** Workflow MVP (`create -> approve -> schedule -> publish`, LinkedIn first)
+- **Weeks 13-16:** Pilots, billing, second platform, basic analytics
+- **Weeks 17-24:** Revenue attribution MVP (HubSpot)
+- **Weeks 25-32:** NOVA planner, Content Score, Brand Voice (scale modules after PMF)
 
 **On-slide callout:**  
 Each sprint ships measurable user value and reduces platform risk.
@@ -164,7 +164,7 @@ Risk is expected in AI and integrations. Our architecture and delivery method ar
 **On-slide bullets:**
 - **Use of funds:** product engineering, AI/data infrastructure, integration reliability, compliance hardening, pilot conversion.
 - **Next 2-quarter milestones:**
-  1. Complete Sprint 1-4 roadmap
+  1. Launch MVP and convert pilots to paying customers
   2. Demonstrate attributed revenue impact in pilots
   3. Convert pilots to paid multi-module subscriptions
   4. Expand enterprise controls and integration coverage
@@ -186,10 +186,10 @@ Risk is expected in AI and integrations. Our architecture and delivery method ar
 
 ### Appendix C - Detailed Roadmap
 - Sprint backlog references:
-  - `Plan/SMM_Sprint1_Backlog.md`
-  - `Plan/SMM_Sprint2_Backlog.md`
-  - `Plan/SMM_Sprint3_Backlog.md`
-  - `Plan/SMM_Sprint4_Backlog.md`
+  - `Plan/03_Backlogs/SMM_Sprint1_Backlog.md`
+  - `Plan/03_Backlogs/SMM_Sprint2_Backlog.md`
+  - `Plan/03_Backlogs/SMM_Sprint3_Backlog.md`
+  - `Plan/03_Backlogs/SMM_Sprint4_Backlog.md`
 
 ### Appendix D - Pilot Program
 - Target profile, onboarding sequence, success criteria, conversion triggers

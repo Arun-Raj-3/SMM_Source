@@ -1,4 +1,7 @@
 # SMM Platform Development Guide
+
+> **Architecture reference (v2.0, 2026-10-07):** Where this file differs from `Plan/02_Execution/SMM_Decisions_Log.md` §3–4 (stack, auth, database, naming), the Decisions Log wins. Key overrides: Supabase Auth (no custom login code), PostgreSQL only (no MongoDB/Elasticsearch), Redux Toolkit + RTK Query (no Zustand/React Query), Tailwind + shadcn/ui (no MUI), `apps/worker` path.
+
 ## Pictorial Representation + Step-by-Step Build Plan
 
 ---

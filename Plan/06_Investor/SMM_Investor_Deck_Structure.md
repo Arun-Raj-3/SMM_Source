@@ -85,12 +85,12 @@
 ---
 
 ## Slide 9 - Execution Plan
-**Headline:** 8-week phased delivery (4 sprints)  
+**Headline:** Gated phases: MVP in 12 weeks, revenue proof by week 24  
 **Key Points:**
-- Sprint 1: MVP workflow
-- Sprint 2: NOVA v1 + attribution
-- Sprint 3: predictive/brand/competitor intelligence
-- Sprint 4: localization/influencer/compliance/white-label
+- Weeks 1-12: Setup, foundation and workflow MVP (LinkedIn)
+- Weeks 13-16: Pilots, billing, Meta, basic analytics (first paying customer)
+- Weeks 17-24: Revenue attribution (HubSpot)
+- Weeks 25-32: NOVA planner, Content Score, Brand Voice; scale modules after PMF
 **Visual:** timeline or Gantt strip
 
 ---
@@ -130,7 +130,7 @@
 - Security/compliance hardening
 - Pilot onboarding and conversion
 **Milestones (2 quarters):**
-1. Complete Sprint 1-4 roadmap
+1. Launch MVP and convert pilots to paying customers (Week 16)
 2. Demonstrate attributed revenue impact
 3. Convert pilots to paid multi-module customers
 4. Expand enterprise integrations

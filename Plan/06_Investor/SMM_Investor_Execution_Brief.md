@@ -66,21 +66,24 @@ This creates a land-and-expand motion with increasing ARPU as customers adopt ad
 
 ---
 
-## 6) Delivery Plan (8 Weeks, 4 Sprints)
+## 6) Delivery Plan (Gated Phases)
 
-### Sprint 1: Workflow MVP
-Launch core flow: create -> approve -> schedule -> publish (single platform), with RBAC and audit baseline.
+### Weeks 1–12: Workflow MVP
+Setup, foundation, and the core flow: create -> approve -> schedule -> publish (LinkedIn first), with RBAC and audit baseline.
 
-### Sprint 2: Intelligence Foundation
-Release NOVA v1 planner and attribution MVP with CRM sync and revenue dashboard.
+### Weeks 13–16: Pilot and Launch
+Billing, onboarding, second platform (Meta), basic analytics. Goal: first paying customer.
 
-### Sprint 3: Advanced Intelligence
-Ship predictive content score, brand voice guardian, and competitor benchmarking.
+### Weeks 17–24: Revenue Intelligence
+UTM tagging, tracked links, HubSpot sync, linear attribution and revenue dashboard.
 
-### Sprint 4: Scale and Enterprise
-Ship localization workflows, influencer module MVP, compliance checks, and white-label reports.
+### Weeks 25–32: AI Differentiation
+NOVA campaign planner, predictive content score, brand voice guardian.
 
-This phased delivery sequence prioritizes early market value while reducing execution risk.
+### After Product-Market Fit: Scale and Enterprise
+Compliance, white-label reports, localization, influencer module, mobile apps — prioritized by customer demand.
+
+Each phase has an exit gate that must pass before the next begins, prioritizing early market value while reducing execution risk. Full plan: `Plan/02_Execution/SMM_Implementation_Phases.md`.
 
 ---
 
@@ -133,7 +136,7 @@ Most competitors are workflow tools with shallow intelligence. Our platform is a
 - Pilot customer onboarding and conversion
 
 ### Milestones (Next 2 Quarters)
-1. Complete Sprint 1-4 delivery and pilot rollout.
+1. Launch MVP and convert pilots to paying customers (Week 16).
 2. Demonstrate measurable attributed revenue for pilot accounts.
 3. Convert pilot customers into paid multi-module subscriptions.
 4. Expand enterprise-ready controls and partner integrations.
@@ -141,11 +144,11 @@ Most competitors are workflow tools with shallow intelligence. Our platform is a
 ---
 
 ## Appendix: Linked Internal Planning Documents
-- `Plan/SMM_Executive_OnePager.md`
-- `Plan/SMM_Overview_PDF_Friendly.md`
-- `Plan/SMM_Development_Guide.md`
-- `Plan/SMM_Sprint1_Backlog.md`
-- `Plan/SMM_Sprint2_Backlog.md`
-- `Plan/SMM_Sprint3_Backlog.md`
-- `Plan/SMM_Sprint4_Backlog.md`
-- `Plan/SMM_Master_Execution_Plan.md`
+- `Plan/01_Strategy/SMM_Executive_OnePager.md`
+- `Plan/01_Strategy/SMM_Overview_PDF_Friendly.md`
+- `Plan/04_Architecture/SMM_Development_Guide.md`
+- `Plan/03_Backlogs/SMM_Sprint1_Backlog.md`
+- `Plan/03_Backlogs/SMM_Sprint2_Backlog.md`
+- `Plan/03_Backlogs/SMM_Sprint3_Backlog.md`
+- `Plan/03_Backlogs/SMM_Sprint4_Backlog.md`
+- `Plan/02_Execution/SMM_Master_Execution_Plan.md`

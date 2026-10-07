@@ -45,18 +45,21 @@ Use a cheaper fast model for:
 
 ## 3) Suggested Tool Stack (Solo-Friendly)
 
+> Stack below is aligned with `Plan/02_Execution/SMM_Decisions_Log.md` §3 (v2.0).
+
 ### Development
-- IDE: Cursor
-- Frontend: React + TypeScript + Tailwind
-- Backend: Node + NestJS
-- DB: PostgreSQL
+- IDE: VS Code + Claude Code (or Cursor)
+- Frontend: React + TypeScript + Tailwind + shadcn/ui + Redux Toolkit / RTK Query
+- Backend: Node + NestJS (API + worker)
+- DB: PostgreSQL on Supabase + Prisma (+ pgvector for NOVA memory)
 - Queue: Redis + BullMQ
 
 ### Infra and Ops
-- Hosting: Vercel/Render/Railway (start simple)
+- Hosting: Vercel (web) + Render/Railway (API, worker)
 - Monitoring: Sentry + PostHog
-- Auth: Auth0 or Clerk (avoid custom auth in v1)
-- Storage: S3-compatible object storage
+- Auth: Supabase Auth (no custom auth code)
+- Storage: Supabase Storage (S3-compatible)
+- Billing: Razorpay
 
 ### AI Services
 - LLM API for NOVA and rewrite suggestions
@@ -87,32 +90,18 @@ Use a cheaper fast model for:
 
 ---
 
-## 5) 90-Day Execution Path (Mapped to Your Sprints)
+## 5) Execution Path (Mapped to Implementation Phases)
 
-### Days 1-30 (Sprint 1 equivalent)
-Ship:
-- auth + RBAC,
-- content create/approve/schedule/publish flow,
-- first social connector,
-- status tracking and basic analytics.
+The full plan is in `Plan/02_Execution/SMM_Implementation_Phases.md`. Summary for a solo founder:
 
-**Output:** MVP you can demo live.
-
-### Days 31-60 (Sprint 2 equivalent)
-Ship:
-- NOVA v1 planner,
-- UTM/session/CRM attribution MVP,
-- revenue dashboard baseline.
-
-**Output:** Clear revenue story for pilots.
-
-### Days 61-90 (Partial Sprint 3)
-Ship:
-- content score v1,
-- brand voice guardrails,
-- basic competitor benchmark.
-
-**Output:** Strong product differentiation for investor pitch.
+| Weeks | Phase | Output |
+|---|---|---|
+| 1–2 | Phase 0 — Setup & long-lead items | Platform app reviews submitted, pilots lined up |
+| 3–6 | Phase 1 — Foundation | Login, workspace, RBAC, CI, staging |
+| 7–12 | Phase 2 — Core workflow MVP | Live LinkedIn `create → approve → schedule → publish` demo |
+| 13–16 | Phase 3 — Pilot & launch | Billing, onboarding, Meta, basic analytics, first paying customer |
+| 17–24 | Phase 4 — Revenue intelligence | Attribution dashboard: clear revenue story for pilots |
+| 25–32 | Phase 5 — AI differentiation | NOVA planner, Content Score, Brand Voice |
 
 ---
 
@@ -121,7 +110,7 @@ Ship:
 2. Do not build mobile app in first 90 days.
 3. Do not overbuild AI autonomy before stable workflows.
 4. Keep every feature behind a feature flag.
-5. Maintain one source of truth: `Plan/SMM_Master_Execution_Plan.md`.
+5. Maintain one source of truth: `Plan/02_Execution/SMM_Decisions_Log.md` (decisions), `Plan/02_Execution/SMM_Implementation_Phases.md` (phases) and `Plan/02_Execution/SMM_Autonomous_Development_Checklist.md` (tasks).
 
 ---
 
@@ -202,7 +191,7 @@ Optimize for **best model per task**.
 ---
 
 ## 13) Immediate Next Actions (This Week)
-1. Finalize your 30-day Sprint 1 ticket subset from `Plan/SMM_Sprint1_Backlog.md`.
+1. Complete Phase 0 tasks (P0-01 … P0-12) in `Plan/02_Execution/SMM_Autonomous_Development_Checklist.md`.
 2. Set monthly AI budget cap and alert threshold.
 3. Create first vertical slice: draft -> approval -> schedule -> publish.
 4. Start onboarding 2-3 pilot design partners early.
@@ -211,10 +200,10 @@ Optimize for **best model per task**.
 ---
 
 ## Linked Planning Docs
-- `Plan/SMM_Master_Execution_Plan.md`
-- `Plan/SMM_Sprint1_Backlog.md`
-- `Plan/SMM_Sprint2_Backlog.md`
-- `Plan/SMM_Sprint3_Backlog.md`
-- `Plan/SMM_Sprint4_Backlog.md`
-- `Plan/SMM_Monthly_Profit_Gain_Overview.md`
-- `Plan/SMM_Monthly_Profit_Gain_Optimistic_INR.md`
+- `Plan/02_Execution/SMM_Master_Execution_Plan.md`
+- `Plan/03_Backlogs/SMM_Sprint1_Backlog.md`
+- `Plan/03_Backlogs/SMM_Sprint2_Backlog.md`
+- `Plan/03_Backlogs/SMM_Sprint3_Backlog.md`
+- `Plan/03_Backlogs/SMM_Sprint4_Backlog.md`
+- `Plan/07_Finance/SMM_Monthly_Profit_Gain_Overview.md`
+- `Plan/07_Finance/SMM_Monthly_Profit_Gain_Optimistic_INR.md`
